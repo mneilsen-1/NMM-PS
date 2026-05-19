@@ -21,7 +21,7 @@ Create or edit `ConfigData.json` with your NMM API credentials:
     "BaseUri": "https://your-nerdio-instance.nerdio.net",
     "TenantId": "your-azure-tenant-id",
     "ClientId": "your-app-registration-client-id",
-    "Scope": "api://your-app-id/.default",
+    "Scope": "your-app-id/.default",
     "ClientSecret": "your-client-secret"
 }
 ```
@@ -33,7 +33,7 @@ Create or edit `ConfigData.json` with your NMM API credentials:
 | `BaseUri` | Your NMM instance URL | `https://contoso.nerdio.net` |
 | `TenantId` | Azure AD tenant ID | `d26d1e01-5e94-4110-848b-ecba9ee44f60` |
 | `ClientId` | App registration client ID | `7ee590b9-bea3-4d65-b6da-2cfa33ff8faa` |
-| `Scope` | OAuth2 scope | `api://31d1c288-f4d8-46b9-88bd-aab9abac37d5/.default` |
+| `Scope` | OAuth2 scope | `31d1c288-f4d8-46b9-88bd-aab9abac37d5/.default` |
 | `ClientSecret` | Client secret (or use certificate) | `90.8Q~...` |
 
 ## Certificate Authentication
@@ -45,7 +45,7 @@ For enhanced security, you can use certificate-based authentication instead of a
     "BaseUri": "https://your-nerdio-instance.nerdio.net",
     "TenantId": "your-azure-tenant-id",
     "ClientId": "your-app-registration-client-id",
-    "Scope": "api://your-app-id/.default",
+    "Scope": "your-app-id/.default",
     "AuthMethod": "Certificate",
     "Certificate": {
         "Source": "CertStore",
